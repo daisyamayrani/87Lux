@@ -48,10 +48,12 @@
       }
       &__description {
         font-family: $fontOpenSans;
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 18px;
       }
       &__input {
         border: none;
+        width: 300px;
         padding: 10px;
         padding-right:70px;
         font-size: 12px;
@@ -61,6 +63,7 @@
       -moz-box-shadow: 0px 9px 24px 0px rgba(0,0,0,0.15);
       }
       &__btn {
+
       }
     }
     &__right {
@@ -123,7 +126,7 @@
 }
 
 .platforms {
-  width:45%;
+  width:70%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -142,16 +145,16 @@
   margin-top: 100px;
   margin-bottom: 200px;
   &__projImgs{
-    // position: relative;
-    // width: 100%;
-    // height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
     &__backImg {
+      margin-top: 3%;
       position: relative;
-      top: 74px;
-      right: 0px;
-      width: 83%;
-      height: 110px;
+      top: 1%;
+      right: 0%;
       z-index: -1;
+      width: 86%;
     }
     &__img {
       margin-top: auto;
@@ -159,34 +162,34 @@
       display: block;
       &__1 {
         position: absolute;
-        top: -47px;
+        top: -8%;
         right: 50%;
         z-index: 3;
         width: 100%;
-        height: 99% !important;
+        // height: 99% !important;
       }
       &__2 {
         position: absolute;
-        top: -47px;
+        top: -8%;
         right: 17%;
         z-index: 2;
         width: 100%;
-        height: 99% !important;
+        // height: 99% !important;
       }
       &__3 {
         position: absolute;
-        top: -47px;
+        top: -8%;
         right: 0%;
         z-index: 1;
         width: 100%;
-        height: 99% !important;
+        // height: 99% !important;
         padding-right: 0px;
       }
     }
   }
   &__btnList {
-    position: absolute;
-    bottom:0%;
+    position: relative;
+    top: 73%;
     left: 40%;
     display: inline-block;
     height:auto;
@@ -394,6 +397,60 @@
 
 
 }
+
+
+
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 991px) {
+  .jumbo__left {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      &__title {
+        font-size: 3rem;
+      }
+      &__description {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+      &__input {
+        width:50%;
+      }
+      &__btn {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+   }
+   .platforms {
+     margin-top: 75px;
+     width: 77%;
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+
 
 
 // random space
