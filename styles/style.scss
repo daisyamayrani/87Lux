@@ -167,7 +167,7 @@
         right: 50%;
         z-index: 3;
         width: 100%;
-        // height: 99% !important;
+        height: 163% !important;
       }
       &__2 {
         position: absolute;
@@ -175,7 +175,7 @@
         right: 17%;
         z-index: 2;
         width: 100%;
-        // height: 99% !important;
+        height: 163% !important;
       }
       &__3 {
         position: absolute;
@@ -183,7 +183,7 @@
         right: 0%;
         z-index: 1;
         width: 100%;
-        // height: 99% !important;
+        height: 163% !important;
         padding-right: 0px;
       }
     }
@@ -211,8 +211,8 @@
 }
 
 .team {
+  margin-top: 400px;
   margin-bottom: 200px;
-
   &__box {
     position: relative;
     top: 0px;
@@ -406,9 +406,7 @@
 /* On screens that are 991px or less, set the background color to blue */
 @media screen and (max-width: 991px){
   .jumbo {
-    // background-color: green;
     &__left {
-
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -431,7 +429,11 @@
         }
      }
   }
+
+
+
    .platforms {
+     // background-color: green;
      margin-top: 75px;
      width: 77%;
    }
@@ -452,18 +454,21 @@
       }
     }
   }
+
+
   .jumbo {
-    // background-color: blue;
-    // height: 500px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 75px;
     padding: 0px;
     &__left {
       width: 100%;
       margin-left: auto;
       margin-right: auto;
-      padding: 30px;
+      margin-bottom: 0;
+      padding: 20px;
+      padding-bottom: 0;
         &__title {
           font-size: 18px;
         }
@@ -487,9 +492,51 @@
        display: none;
      }
   }
+
+
   .platforms {
+    // background-color: blue;
     margin-top: 75px;
+    margin-bottom: 100px;
     width: 77%;
+    &__img {
+      padding: 0;
+
+    }
+  }
+
+
+  .projects {
+    margin-bottom: 50px;
+    margin-top: 200px;
+    &__projImgs{
+
+      &__backImg {
+        margin-top: 26px;
+      }
+      &__img {
+        padding: 0;
+
+        &__1 {
+
+        }
+        &__2 {
+
+        }
+        &__3 {
+
+        }
+      }
+    }
+    &__btnList {
+      position: absolute;
+      top: 56%;
+      left: 25%;
+      &__btn {
+
+
+      }
+    }
   }
 }
 

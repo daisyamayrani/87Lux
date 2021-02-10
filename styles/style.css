@@ -157,19 +157,22 @@ html, body {
         top: -8%;
         right: 50%;
         z-index: 3;
-        width: 100%; }
+        width: 100%;
+        height: 163% !important; }
       .projects__projImgs__img__2 {
         position: absolute;
         top: -8%;
         right: 17%;
         z-index: 2;
-        width: 100%; }
+        width: 100%;
+        height: 163% !important; }
       .projects__projImgs__img__3 {
         position: absolute;
         top: -8%;
         right: 0%;
         z-index: 1;
         width: 100%;
+        height: 163% !important;
         padding-right: 0px; }
   .projects__btnList {
     position: relative;
@@ -190,6 +193,7 @@ html, body {
       margin-right: 10px; }
 
 .team {
+  margin-top: 400px;
   margin-bottom: 200px; }
   .team__box {
     position: relative;
@@ -375,12 +379,15 @@ html, body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 75px;
     padding: 0px; }
     .jumbo__left {
       width: 100%;
       margin-left: auto;
       margin-right: auto;
-      padding: 30px; }
+      margin-bottom: 0;
+      padding: 20px;
+      padding-bottom: 0; }
       .jumbo__left__title {
         font-size: 18px; }
       .jumbo__left__description {
@@ -400,6 +407,21 @@ html, body {
 
   .platforms {
     margin-top: 75px;
-    width: 77%; } }
+    margin-bottom: 100px;
+    width: 77%; }
+    .platforms__img {
+      padding: 0; }
+
+  .projects {
+    margin-bottom: 50px;
+    margin-top: 200px; }
+    .projects__projImgs__backImg {
+      margin-top: 26px; }
+    .projects__projImgs__img {
+      padding: 0; }
+    .projects__btnList {
+      position: absolute;
+      top: 56%;
+      left: 25%; } }
 
 /*# sourceMappingURL=style.css.map */
