@@ -40,6 +40,7 @@
     margin-top: 57px;
     margin-bottom: 60px;
     padding: 100px;
+
     &__left {
       height: auto;
       &__title {
@@ -70,7 +71,7 @@
       position: relative;
       top: 0;
       left: 0;
-      height: 40%;
+      height: auto;
         &__img {
 
             &__1 {
@@ -131,7 +132,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 250px;
-  margin-top: 200px;
+  margin-top: 100px;
   &__img {
     width:10%;
   }
@@ -402,53 +403,98 @@
 
 
 
+/* On screens that are 991px or less, set the background color to blue */
+@media screen and (max-width: 991px){
+  .jumbo {
+    // background-color: green;
+    &__left {
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 991px) {
-  .jumbo__left {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      &__title {
-        font-size: 3rem;
-      }
-      &__description {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        font-size: 1.5rem;
-        font-weight: 300;
-      }
-      &__input {
-        width:50%;
-      }
-      &__btn {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-      }
-   }
+        &__title {
+          font-size: 3rem;
+        }
+        &__description {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          font-size: 1.5rem;
+          font-weight: 300;
+        }
+        &__input {
+          width:50%;
+        }
+        &__btn {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
+     }
+  }
    .platforms {
      margin-top: 75px;
      width: 77%;
    }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px)  {
+  .navbar {
+    height: 10%;
+    &__right{
+      &__menu{
+        &__list{
+          &__item{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .jumbo {
+    // background-color: blue;
+    // height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    &__left {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 30px;
+        &__title {
+          font-size: 18px;
+        }
+        &__description {
+          margin-top: 10px;
+          margin-bottom: 40px;
+          font-size: 12px;
+          font-weight: 300;
+        }
+        &__input {
+          width:100%;
+        }
+        &__btn {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          width:100%;
+        }
+     }
+     &__right {
+       display: none;
+     }
+  }
+  .platforms {
+    margin-top: 75px;
+    width: 77%;
+  }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
 
 
-}
-
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
 
 
 

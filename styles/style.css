@@ -77,7 +77,7 @@ html, body {
     position: relative;
     top: 0;
     left: 0;
-    height: 40%; }
+    height: auto; }
     .jumbo__right__img__1 {
       position: absolute;
       top: 0;
@@ -126,7 +126,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 250px;
-  margin-top: 200px; }
+  margin-top: 100px; }
   .platforms__img {
     width: 10%; }
 
@@ -341,7 +341,8 @@ html, body {
       margin-left: auto;
       padding: 3px; }
 
-@media (max-width: 991px) {
+/* On screens that are 991px or less, set the background color to blue */
+@media screen and (max-width: 991px) {
   .jumbo__left {
     text-align: center;
     margin-left: auto;
@@ -359,6 +360,43 @@ html, body {
       text-align: center;
       margin-left: auto;
       margin-right: auto; }
+
+  .platforms {
+    margin-top: 75px;
+    width: 77%; } }
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 10%; }
+    .navbar__right__menu__list__item {
+      font-size: 12px; }
+
+  .jumbo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px; }
+    .jumbo__left {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 30px; }
+      .jumbo__left__title {
+        font-size: 18px; }
+      .jumbo__left__description {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        font-weight: 300; }
+      .jumbo__left__input {
+        width: 100%; }
+      .jumbo__left__btn {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; }
+    .jumbo__right {
+      display: none; }
 
   .platforms {
     margin-top: 75px;

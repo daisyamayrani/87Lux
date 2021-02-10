@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shink-to-fit=no">
     <title>87Lux</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,7 +16,7 @@
         </div>
         <div class="col-6 navbar__right">
             <div class="navbar__right__menu align-center">
-                <div class="navbar__right__menu__list__item" >
+                <div class="navbar__right__menu__list" >
                     <a href="#" class="navbar__right__menu__list__item">Themes</a>
                     <a href="#" class="navbar__right__menu__list__item">Apps</a>
                     <a href="#" class="navbar__right__menu__list__item">Assets</a>
@@ -27,16 +27,16 @@
     </header>
 
     <main class="fluid-container">
-        <div class="row justify-content-center jumbo">
+        <section class="row justify-content-center jumbo">
 
-            <div class="col col-lg-4 col-md-12  col-sm-12 jumbo__left">
+            <div class="col col-lg-4 col-md-12  col-sm-12 col-xs-12  jumbo__left">
                 <h3 class="jumbo__left__title">We Give Your Business an Edge Over Your Competitors!</h3>
                 <p class="jumbo__left__description">Everything you need for your business: Themes, Apps, Assets and More..</p>
                 <input class="  jumbo__left__input" type="email" placeholder="Enter your email address">
                 <button class="  purpleBtn btnDetails jumbo__left__btn" ><a href="#" class="">Get Started</a></button>
             </div>
 
-            <div class="col col-lg-4 col-md-none jumbo__right">
+            <div class="col col-lg-4 col-md-none col-sm-none col-xs-none  jumbo__right">
                 <img src="public/img/Video.png" class="jumbo__right__img__1 d-none d-lg-block " alt="video" class="jumbo__right__image">
                 <img src="public/img/Polygon 1.png" class="jumbo__right__img__2 d-none d-lg-block" alt="polygon" class="jumbo__right__image">
                 <img src="public/img/Ellipse 1.png" class="jumbo__right__img__3 d-none d-lg-block" alt="ellipse" class="jumbo__right__image">
@@ -45,16 +45,16 @@
                 <img src="public/img/Rectangle 5.png" class="jumbo__right__img__6 d-none d-lg-block" alt="ellipse" class="jumbo__right__image">
             </div>
 
-        </div>
+        </section>
 
-        <div class="row justify-content-center  platforms ">
+        <section class="row justify-content-center  platforms ">
             <img class="col col-lg-2 col-md-3 platforms__img" src="public/img/Rectangle 10.png" alt="shopify">
             <img class="col col-lg-2 col-md-3 platforms__img" src="public/img/Rectangle 11.png" alt="wordpress">
             <img class="col col-lg-2 col-md-3 platforms__img" src="public/img/Rectangle 12.png" alt="bigcommerce">
             <img class="col col-lg-2 col-md-3 platforms__img" src="public/img/Rectangle 13.png" alt="wix">
-        </div>
+        </section>
 
-        <div class="fluid-container justify-content-end projects">
+        <section class="fluid-container justify-content-end projects">
           <div class="row justify-content-end projects__projImgs">
             <img class=" justify-content-end projects__projImgs__backImg" src="public/img/Rectangle 6.png" alt="">
             <img class="col-4 projects__projImgs__img__1" src="public/img/Rectangle 7.png" alt="">
@@ -66,9 +66,9 @@
               <button class=" whiteBtn btn projects__btnList__btn"> <a href="#" class="">View Apps</a></button>
               <button class=" whiteBtn btn projects__btnList__btn"> <a href="#" class="">View Themes</a></button>
           </div>
-        </div>
+        </section>
 
-        <div class="row justify-content-center team">
+        <section class="row justify-content-center team">
             <div class="col col-8 team__box">
               <h3 class="team__box__title">Meet The Team</h3>
               <img class="team__box__img__1" src="public/img/Ellipse 3.png" alt="team member">
@@ -79,9 +79,9 @@
               <img class="team__box__img__6" src="public/img/Ellipse 8.png" alt="team member">
               <img class="team__box__img__7" src="public/img/Ellipse 9.png" alt="team member">
             </div>
-        </div>
+        </section>
 
-        <div class="fluid-container customSolutions">
+        <section class="fluid-container customSolutions">
             <h3 class="customSolutions__title">Need A Custom Solution?</h3>
             <div class="row justify-content-center customSolutions__rowSection">
               <div class="col col-2 justify-content-center customSolutions__rowSection__list">
@@ -103,9 +103,7 @@
                     <button class=" purpleBtn btnDetails customSolutions__footer__center__btn"  type="button" name="button"> <a href="#" class="">Lets Get Started</a></button>
                 </div>
             </footer>
-
-
-        </div>
+        </section>
 
     </main>
     <script src="components/apps.js"></script>
