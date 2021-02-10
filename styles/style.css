@@ -367,7 +367,29 @@ html, body {
 
   .platforms {
     margin-top: 75px;
-    width: 77%; } }
+    width: 77%; }
+
+  .team {
+    height: 500px; }
+    .team__box {
+      height: 500px; }
+      .team__box__title {
+        font-size: 24px; }
+      .team__box__img__1 {
+        top: 17.3%;
+        left: 11.1%; }
+      .team__box__img__2 {
+        top: 17.3%;
+        left: 37%; }
+      .team__box__img__3 {
+        top: 11%;
+        left: 64%; }
+      .team__box__img__6 {
+        top: 40%;
+        left: 2%; }
+      .team__box__img__7 {
+        bottom: 23%;
+        left: 30%; } }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .navbar {
@@ -422,6 +444,29 @@ html, body {
     .projects__btnList {
       position: absolute;
       top: 56%;
-      left: 25%; } }
+      left: 25%; }
+      .projects__btnList__btn {
+        margin-top: 10px; }
+
+  .team {
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .team__box {
+      height: 500px; }
+      .team__box__title {
+        font-size: 24px; }
+      .team__box__img__1 {
+        top: 17.3%;
+        left: 11.1%; }
+      .team__box__img__3 {
+        top: 30.3%;
+        left: 3%; }
+      .team__box__img__6 {
+        top: 50%;
+        left: 2%; }
+      .team__box__img__7 {
+        bottom: 36%;
+        left: 30%; } }
 
 /*# sourceMappingURL=style.css.map */

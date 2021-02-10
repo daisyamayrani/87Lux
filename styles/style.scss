@@ -433,11 +433,46 @@
 
 
    .platforms {
-     // background-color: green;
+
      margin-top: 75px;
      width: 77%;
    }
+
+    .team {
+       // background-color: green;
+       height: 500px;
+       &__box {
+         height: 500px;
+         &__title {
+           font-size: 24px;
+         }
+         &__img{
+           &__1{
+             top: 17.3%;
+             left: 11.1%;
+           }
+           &__2{
+             top: 17.3%;
+             left: 37%;
+           }
+           &__3{
+             top: 11%;
+             left: 64%;
+           }
+           &__6{
+             top: 40%;
+             left: 2%;
+           }
+           &__7 {
+             bottom: 23%;
+              left: 30%;
+           }
+         }
+       }
+    }
+
 }
+
 
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -495,7 +530,7 @@
 
 
   .platforms {
-    // background-color: blue;
+
     margin-top: 75px;
     margin-bottom: 100px;
     width: 77%;
@@ -533,11 +568,48 @@
       top: 56%;
       left: 25%;
       &__btn {
-
+        margin-top: 10px;
 
       }
     }
   }
+
+
+  .team {
+     // background-color: blue;
+     height: 500px;
+     margin-top: 0px;
+      margin-bottom: 0px;
+     &__box {
+       height: 500px;
+       &__title {
+         font-size: 24px;
+       }
+       &__img{
+         &__1{
+           top: 17.3%;
+           left: 11.1%;
+         }
+         &__2{
+
+         }
+         &__3{
+           top: 30.3%;
+          left: 3%;
+         }
+         &__6{
+           top: 50%;
+           left: 2%;
+         }
+         &__7 {
+           bottom: 36%;
+            left: 30%;
+         }
+       }
+     }
+  }
+
+
 }
 
 
