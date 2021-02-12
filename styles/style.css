@@ -26,7 +26,6 @@ html, body {
   color: #7E53FD; }
 
 .navbar {
-  height: 70px;
   text-align: center;
   background-color: #FFFFFF;
   box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 0.15);
@@ -35,16 +34,12 @@ html, body {
   z-index: 8; }
   .navbar__left__title {
     font-family: "Nanum Gothic", sans-serif; }
-  .navbar__right__menu {
-    display: inline; }
-    .navbar__right__menu__list {
-      margin-top: auto;
-      margin-bottom: auto; }
-      .navbar__right__menu__list__item {
-        display: inline;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        color: #000000; }
+  .navbar__toggler {
+    text-align: center; }
+  .navbar__right__list__item {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #000000; }
 
 .jumbo {
   position: relative;
@@ -389,13 +384,14 @@ html, body {
         left: 2%; }
       .team__box__img__7 {
         bottom: 23%;
-        left: 30%; } }
+        left: 30%; }
+
+  .customSolutions {
+    background-color: green; } }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-  .navbar {
-    height: 10%; }
-    .navbar__right__menu__list__item {
-      font-size: 12px; }
+  .navbar__right__menu__list__item {
+    font-size: 12px; }
 
   .jumbo {
     width: 100%;
@@ -467,6 +463,9 @@ html, body {
         left: 2%; }
       .team__box__img__7 {
         bottom: 36%;
-        left: 30%; } }
+        left: 30%; }
+
+  .customSolutions {
+    background-color: blue; } }
 
 /*# sourceMappingURL=style.css.map */

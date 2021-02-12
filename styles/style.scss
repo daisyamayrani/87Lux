@@ -6,7 +6,6 @@
 
 
 .navbar {
-  height: 70px;
   text-align: center;
   background-color: #FFFFFF;
   box-shadow: 0px 9px 24px 0px rgba(0,0,0,0.15);
@@ -16,14 +15,15 @@
   &__left__title {
     font-family: $fontGothic;
   }
-  &__right__menu {
-    display: inline;
+  &__toggler{
+    text-align: center;
+  }
+  &__right {
 
     &__list {
-      margin-top: auto;
-      margin-bottom: auto;
+      // margin-top: auto;
+      // margin-bottom: auto;
       &__item {
-        display: inline;
         font-family: $fontOpenSans;
         font-weight: 400;
         color: #000000;
@@ -395,8 +395,6 @@
       }
     }
   }
-
-
 }
 
 
@@ -429,8 +427,6 @@
         }
      }
   }
-
-
 
    .platforms {
 
@@ -471,6 +467,56 @@
        }
     }
 
+    .customSolutions {
+      background-color: green;
+      &__title {
+
+      }
+      &__rowSection {
+
+        &__list {
+
+          &__img {
+
+          }
+        }
+        &__box {
+
+          &__img {
+            &__1 {
+
+            }
+            &__2 {
+
+            }
+            &__3 {
+
+            }
+          }
+          &__textBox {
+
+            &__h3 {
+
+            }
+            &__p {
+
+            }
+          }
+        }
+      }
+      &__footer {
+
+        &__center {
+
+          &__p {
+
+          }
+          &__btn {
+
+          }
+        }
+      }
+    }
 }
 
 
@@ -478,7 +524,7 @@
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px)  {
   .navbar {
-    height: 10%;
+    // height: 10%;
     &__right{
       &__menu{
         &__list{
@@ -609,6 +655,56 @@
      }
   }
 
+  .customSolutions {
+    background-color: blue;
+    &__title {
+
+    }
+    &__rowSection {
+
+      &__list {
+
+        &__img {
+
+        }
+      }
+      &__box {
+
+        &__img {
+          &__1 {
+
+          }
+          &__2 {
+
+          }
+          &__3 {
+
+          }
+        }
+        &__textBox {
+
+          &__h3 {
+
+          }
+          &__p {
+
+          }
+        }
+      }
+    }
+    &__footer {
+
+      &__center {
+
+        &__p {
+
+        }
+        &__btn {
+
+        }
+      }
+    }
+  }
 
 }
 
