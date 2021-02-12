@@ -384,10 +384,7 @@ html, body {
         left: 2%; }
       .team__box__img__7 {
         bottom: 23%;
-        left: 30%; }
-
-  .customSolutions {
-    background-color: green; } }
+        left: 30%; } }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .navbar__right__menu__list__item {
@@ -463,9 +460,6 @@ html, body {
         left: 2%; }
       .team__box__img__7 {
         bottom: 36%;
-        left: 30%; }
-
-  .customSolutions {
-    background-color: blue; } }
+        left: 30%; } }
 
 /*# sourceMappingURL=style.css.map */
